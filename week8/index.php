@@ -11,7 +11,18 @@ echo "My first PHP script!";
 ECHO "Hello World!<br>";
 echo "Hello World!<br>";
 EcHo "Hello World!<br>";
+
+$x = "Hello world!";
+$y = 'Hello world!';
+
+var_dump($x);
+echo "<br>";
+var_dump($y);
+
 ?>
+
+
+
 
 
 </body>
