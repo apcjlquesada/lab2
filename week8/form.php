@@ -109,9 +109,9 @@ echo $gender;
 
 // For socitcloud
 $servername = "localhost";
-$username = "webprogmi222_sf221";
-$password = "xE*Y2nleNVvZm[!!";
-$dbname = "webprogmi222_sf221";
+$username = "webprogmi221";
+$password = "g_6bCitLu.ljMK*m";
+$dbname = "webprogmi221";
 
 
 
