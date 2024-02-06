@@ -101,6 +101,10 @@ echo $gender;
 ?>
 
 <?php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") 
+{
+
 // For Xampp Localhost
 //$servername = "localhost";
 //$username = "root";
@@ -132,6 +136,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
+}
 ?>
 
 
