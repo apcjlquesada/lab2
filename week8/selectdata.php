@@ -1,8 +1,17 @@
 <?php
+// Xampp localhost config
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$dbname = "myDB";
+
+//socitcloud config
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "myDB";
+$username = "webprogmi222_sf221";
+$password = "xE*Y2nleNVvZm[!!";
+$dbname = "webprogmi222_sf221";
+
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -11,7 +20,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, name, email, website, comment, gender FROM MyGuests";
+$sql = "SELECT id, name, email, website, comment, gender FROM jlquesada_myguests";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
