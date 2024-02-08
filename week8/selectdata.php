@@ -5,13 +5,11 @@
 //$password = "";
 //$dbname = "myDB";
 
-//socitcloud config
+//apcwebprog config
 $servername = "localhost";
-$username = "webprogmi221";
-$password = "g_6bCitLu.ljMK*m";
-$dbname = "webprogmi221";
-
-
+$username = "webprogss221";
+$password = "=latHen97";
+$dbname = "webprogss221";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
