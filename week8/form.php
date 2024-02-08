@@ -111,11 +111,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 //$password = "";
 //$dbname = "myDB";
 
-// For socitcloud
+// For apcwebprog
 $servername = "localhost";
-$username = "webprogmi221";
-$password = "g_6bCitLu.ljMK*m";
-$dbname = "webprogmi221";
+$username = "webprogss221";
+$password = "=latHen97";
+$dbname = "webprogss221";
 
 
 
